@@ -23,7 +23,7 @@ final class CalculatorContext implements Context
     /**
      * @Transform /^ถังข้อมูล (.+)$/
      */
-    public function getSymfonyParameter($key)
+    public function getDataFromStorage($key)
     {
         return $this->sharedStorage->get($key);
     }

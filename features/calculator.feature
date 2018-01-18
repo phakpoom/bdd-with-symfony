@@ -1,5 +1,5 @@
 @calculator
-Feature: สามารถ + - * / ได้
+Feature: ต้องการ class สำรับคิดเลข สามารถ + - * / ได้
 
   Scenario: บวก
     Given ในถังข้อมูล "A" มีเลข "10"
