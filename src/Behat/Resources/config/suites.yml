@@ -1,0 +1,11 @@
+default:
+    suites:
+        domain_managing_calculator:
+            contexts_services:
+                - behat.context.hook.clear_storage
+                - behat.context.domain.calculator
+                - behat.context.setup.storage
+                - behat.context.transform.calculator
+
+            filters:
+                tags: "@calculator"
